@@ -1,0 +1,188 @@
+2024-12-28 18:48:40,594 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getMe "HTTP/1.1 200 OK"
+2024-12-28 18:48:40,785 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-28 18:48:40,786 - INFO - Application started
+2024-12-28 18:48:48,428 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:48:49,921 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getFile "HTTP/1.1 200 OK"
+2024-12-28 18:48:50,911 - INFO - HTTP Request: GET https://api.telegram.org/file/bot7488527811%3AAAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/stickers/file_8.webm "HTTP/1.1 200 OK"
+2024-12-28 18:48:50,991 - INFO - Downloaded file to C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png
+2024-12-28 18:48:50,992 - ERROR - Error handling media: name 'imghdr' is not defined
+Traceback (most recent call last):
+  File "c:\Users\aritr\Downloads\telegrambot\handlers\nsfw_handler.py", line 109, in handle_media
+    if not imghdr.what(path):
+           ^^^^^^
+NameError: name 'imghdr' is not defined. Did you forget to import 'imghdr'
+2024-12-28 18:48:51,351 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/sendMessage "HTTP/1.1 200 OK"
+2024-12-28 18:48:51,352 - INFO - Cleaned up file: C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png
+2024-12-28 18:48:58,625 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:49:08,830 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:49:19,020 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:49:29,214 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:49:46,319 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getMe "HTTP/1.1 200 OK"
+2024-12-28 18:49:46,491 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-28 18:49:46,492 - INFO - Application started
+2024-12-28 18:49:48,306 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:49:48,477 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getFile "HTTP/1.1 200 OK"
+2024-12-28 18:49:49,497 - INFO - HTTP Request: GET https://api.telegram.org/file/bot7488527811%3AAAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/stickers/file_8.webm "HTTP/1.1 200 OK"
+2024-12-28 18:49:49,577 - INFO - Downloaded file to C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png
+2024-12-28 18:49:49,584 - ERROR - Error handling media: C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png is not a valid image.
+Traceback (most recent call last):
+  File "c:\Users\aritr\Downloads\telegrambot\handlers\nsfw_handler.py", line 111, in handle_media
+    raise UnidentifiedImageError(f"{path} is not a valid image.")
+PIL.UnidentifiedImageError: C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png is not a valid image.
+2024-12-28 18:49:50,001 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/sendMessage "HTTP/1.1 200 OK"
+2024-12-28 18:49:50,002 - INFO - Cleaned up file: C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png
+2024-12-28 18:49:58,472 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:50:08,632 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:50:18,798 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:50:29,374 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:50:39,533 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:50:50,074 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:51:00,232 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:51:16,771 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getMe "HTTP/1.1 200 OK"
+2024-12-28 18:51:16,941 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-28 18:51:16,943 - INFO - Application started
+2024-12-28 18:51:18,646 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:51:18,809 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getFile "HTTP/1.1 200 OK"
+2024-12-28 18:51:21,835 - INFO - HTTP Request: GET https://api.telegram.org/file/bot7488527811%3AAAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/stickers/file_8.webm "HTTP/1.1 200 OK"
+2024-12-28 18:51:23,062 - INFO - Downloaded file to C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png
+2024-12-28 18:51:23,070 - ERROR - Error handling media: C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png is not a valid image.
+Traceback (most recent call last):
+  File "c:\Users\aritr\Downloads\telegrambot\handlers\nsfw_handler.py", line 107, in handle_media
+    raise UnidentifiedImageError(f"{path} is not a valid image.")
+PIL.UnidentifiedImageError: C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png is not a valid image.
+2024-12-28 18:51:23,442 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/sendMessage "HTTP/1.1 200 OK"
+2024-12-28 18:51:23,444 - INFO - Cleaned up file: C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png
+2024-12-28 18:51:28,865 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:51:39,040 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:51:49,207 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:51:59,374 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:52:09,539 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:52:19,704 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:52:29,868 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:52:40,033 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:52:50,200 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:53:00,367 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:53:10,533 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:53:20,697 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:53:30,863 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:53:41,058 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:53:51,234 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:54:11,433 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getMe "HTTP/1.1 200 OK"
+2024-12-28 18:54:11,631 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-28 18:54:11,632 - INFO - Application started
+2024-12-28 18:54:16,236 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:54:16,415 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getFile "HTTP/1.1 200 OK"
+2024-12-28 18:54:17,649 - INFO - HTTP Request: GET https://api.telegram.org/file/bot7488527811%3AAAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/stickers/file_8.webm "HTTP/1.1 200 OK"
+2024-12-28 18:54:17,836 - INFO - Downloaded file to C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png
+2024-12-28 18:54:17,846 - ERROR - File C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png is not a valid image.
+2024-12-28 18:54:17,847 - ERROR - Error handling media: C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png is not a valid image.
+Traceback (most recent call last):
+  File "c:\Users\aritr\Downloads\telegrambot\handlers\nsfw_handler.py", line 113, in handle_media
+    raise UnidentifiedImageError(f"{path} is not a valid image.")
+PIL.UnidentifiedImageError: C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png is not a valid image.
+2024-12-28 18:54:18,266 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/sendMessage "HTTP/1.1 200 OK"
+2024-12-28 18:54:18,267 - INFO - Cleaned up file: C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png
+2024-12-28 18:54:26,426 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:54:36,604 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:54:46,785 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:54:56,972 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:55:07,147 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:55:17,386 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:55:27,577 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:55:37,762 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:55:47,954 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:55:58,130 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:56:15,110 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getMe "HTTP/1.1 200 OK"
+2024-12-28 18:56:15,307 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-28 18:56:15,308 - INFO - Application started
+2024-12-28 18:56:23,132 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:56:23,634 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getFile "HTTP/1.1 200 OK"
+2024-12-28 18:56:24,149 - INFO - HTTP Request: GET https://api.telegram.org/file/bot7488527811%3AAAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/stickers/file_8.webm "HTTP/1.1 200 OK"
+2024-12-28 18:56:24,152 - INFO - Downloaded file to C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png
+2024-12-28 18:56:24,161 - ERROR - File C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png is not a valid image.
+2024-12-28 18:56:24,162 - ERROR - Error handling media: C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png is not a valid image.
+Traceback (most recent call last):
+  File "c:\Users\aritr\Downloads\telegrambot\handlers\nsfw_handler.py", line 112, in handle_media
+    raise UnidentifiedImageError(f"{path} is not a valid image.")
+PIL.UnidentifiedImageError: C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png is not a valid image.
+2024-12-28 18:56:24,567 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/sendMessage "HTTP/1.1 200 OK"
+2024-12-28 18:56:24,569 - INFO - Cleaned up file: C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png
+2024-12-28 18:56:33,301 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:56:43,471 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:56:53,641 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:57:03,809 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:57:13,976 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:57:24,149 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:57:34,326 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:57:44,496 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:57:54,663 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:58:04,832 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:58:15,001 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:58:25,407 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 18:58:25,409 - INFO - Application is stopping. This might take a moment.
+2024-12-28 18:58:25,409 - INFO - Application.stop() complete
+2024-12-28 19:03:31,652 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getMe "HTTP/1.1 200 OK"
+2024-12-28 19:03:31,843 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-28 19:03:31,846 - INFO - Application started
+2024-12-28 19:03:42,085 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:03:42,646 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getFile "HTTP/1.1 200 OK"
+2024-12-28 19:03:43,362 - INFO - HTTP Request: GET https://api.telegram.org/file/bot7488527811%3AAAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/stickers/file_8.webm "HTTP/1.1 200 OK"
+2024-12-28 19:03:43,365 - INFO - Downloaded file to C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png
+2024-12-28 19:03:43,404 - ERROR - C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png is not a valid image.
+2024-12-28 19:03:43,405 - ERROR - File C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png is not a valid image.
+2024-12-28 19:03:43,405 - ERROR - Error handling media: C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png is not a valid image.
+Traceback (most recent call last):
+  File "c:\Users\aritr\Downloads\telegrambot\handlers\nsfw_handler.py", line 107, in handle_media
+    raise UnidentifiedImageError(f"{path} is not a valid image.")
+PIL.UnidentifiedImageError: C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png is not a valid image.
+2024-12-28 19:03:43,787 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/sendMessage "HTTP/1.1 200 OK"
+2024-12-28 19:03:43,789 - INFO - Cleaned up file: C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png
+2024-12-28 19:03:52,267 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:04:02,449 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:04:12,633 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:04:22,829 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:04:33,047 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:04:43,255 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:06:04,991 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getMe "HTTP/1.1 200 OK"
+2024-12-28 19:06:05,794 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/deleteWebhook "HTTP/1.1 200 OK"
+2024-12-28 19:06:05,796 - INFO - Application started
+2024-12-28 19:06:15,029 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:06:15,994 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getFile "HTTP/1.1 200 OK"
+2024-12-28 19:06:17,250 - INFO - HTTP Request: GET https://api.telegram.org/file/bot7488527811%3AAAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/stickers/file_8.webm "HTTP/1.1 200 OK"
+2024-12-28 19:06:17,406 - INFO - Downloaded file to C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png
+2024-12-28 19:06:17,448 - ERROR - Image validation failed for C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png: cannot identify image file 'C:\\Users\\aritr\\Downloads\\telegrambot\\media\\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png'
+2024-12-28 19:06:17,449 - ERROR - File C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png is not a valid image.
+2024-12-28 19:06:17,449 - ERROR - Error handling media: C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png is not a valid image.
+Traceback (most recent call last):
+  File "c:\Users\aritr\Downloads\telegrambot\handlers\nsfw_handler.py", line 104, in handle_media
+    raise UnidentifiedImageError(f"{path} is not a valid image.")
+PIL.UnidentifiedImageError: C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png is not a valid image.
+2024-12-28 19:06:17,896 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/sendMessage "HTTP/1.1 200 OK"
+2024-12-28 19:06:17,897 - INFO - Cleaned up file: C:\Users\aritr\Downloads\telegrambot\media\CAACAgUAAyEFAASFiV8aAAIHOWdul4DJBKD5I2G9Mn00U3OZ1sERAAJABwACupYIVwq8FWtAtZmTNgQ.png
+2024-12-28 19:06:25,235 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:06:35,445 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:06:45,654 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:06:56,355 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:07:06,573 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:07:16,790 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:07:27,027 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:07:37,221 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:07:47,400 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:07:57,609 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:08:07,824 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:08:18,047 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:08:28,262 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:08:38,478 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:08:49,133 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:08:59,755 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:09:09,935 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:09:20,109 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:09:30,311 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:09:40,486 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:09:50,694 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:10:01,310 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:10:11,492 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:10:21,679 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:10:31,859 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:10:42,038 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
+2024-12-28 19:10:52,222 - INFO - HTTP Request: POST https://api.telegram.org/bot7488527811:AAGMT9jCdkRbGs3MUV3pD8eoewMPgiN-5d0/getUpdates "HTTP/1.1 200 OK"
